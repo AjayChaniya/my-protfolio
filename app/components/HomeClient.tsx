@@ -113,7 +113,7 @@ export default function HomeClient() {
             <div className="space-y-4">
               <SectionHeading
                 eyebrow="About"
-                title="A modern portfolio should feel credible, polished, and easy to understand."
+                title="Transforming Ideas into Digital Reality."
                 copy={siteData.longBio}
               />
             </div>
@@ -123,7 +123,7 @@ export default function HomeClient() {
                 <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--muted-soft)]">
                   Introduction
                 </p>
-                <p className="mt-4 text-sm leading-8 text-[var(--muted)]">
+                <p className="mt-4 whitespace-pre-line text-sm leading-8 text-[var(--muted)]">
                   {siteData.intro}
                 </p>
                 <div className="mt-5 flex flex-wrap gap-2">
@@ -260,7 +260,7 @@ export default function HomeClient() {
               title="A timeline of focused frontend growth."
               copy="From self-driven practice to client-facing interface work, each step has been about improving design quality, frontend architecture, and delivery standards."
             />
-            <div className="relative grid gap-5 before:absolute before:bottom-4 before:left-4 before:top-4 before:w-px before:bg-[var(--timeline-line)] lg:before:left-1/2">
+            <div className="relative grid gap-5 before:hidden before:absolute before:bottom-4 before:left-4 before:top-4 before:w-px before:bg-[var(--timeline-line)] lg:before:block lg:before:left-1/2">
               {experience.map((item, index) => (
                 <article
                   key={`${item.company}-${item.period}`}
@@ -268,7 +268,7 @@ export default function HomeClient() {
                     index % 2 === 0 ? "lg:mr-auto" : "lg:ml-auto"
                   }`}
                 >
-                  <span className="absolute left-4 top-6 h-3 w-3 rounded-full border border-[var(--accent-border)] bg-[var(--accent-strong)] shadow-[0_0_18px_rgba(125,211,252,0.45)] lg:left-auto lg:right-[-1.66rem]" />
+                  <span className="hidden lg:block absolute left-4 top-6 h-3 w-3 rounded-full border border-[var(--accent-border)] bg-[var(--accent-strong)] shadow-[0_0_18px_rgba(125,211,252,0.45)] lg:left-auto lg:right-[-1.66rem]" />
                   {index % 2 === 1 ? (
                     <span className="hidden lg:block absolute left-[-1.66rem] top-6 h-3 w-3 rounded-full border border-[var(--accent-border)] bg-[var(--accent-strong)] shadow-[0_0_18px_rgba(125,211,252,0.45)]" />
                   ) : null}

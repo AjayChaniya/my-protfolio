@@ -29,6 +29,29 @@
   --project-copy-soft: rgba(255, 255, 255, 0.64);
   --project-tag-surface: rgba(255, 255, 255, 0.04);
   --project-tag-text: rgba(255, 255, 255, 0.74);
+  --project-card-front-start: rgba(10, 20, 48, 0.98);
+  --project-card-front-end: rgba(6, 13, 31, 0.98);
+  --project-card-front-rail: rgba(255, 255, 255, 0.24);
+  --project-card-front-screen: #0b1220;
+  --project-card-front-screen-border: #020617;
+  --project-card-front-title: #ffffff;
+  --project-card-front-chip: rgba(0, 0, 0, 0.32);
+  --project-card-front-chip-text: rgba(255, 255, 255, 0.8);
+  --project-card-front-year: rgba(255, 255, 255, 0.75);
+  --project-card-back-start: rgba(10, 18, 36, 0.98);
+  --project-card-back-end: rgba(6, 11, 21, 0.98);
+  --project-card-back-surface: rgba(255, 255, 255, 0.06);
+  --project-card-back-title: #ffffff;
+  --project-card-back-text: rgba(255, 255, 255, 0.78);
+  --project-card-back-muted: rgba(255, 255, 255, 0.72);
+  --project-card-back-tag-bg: rgba(255, 255, 255, 0.08);
+  --project-card-back-tag-text: rgba(255, 255, 255, 0.82);
+  --project-card-cta-primary-bg: rgba(255, 255, 255, 0.98);
+  --project-card-cta-primary-text: #0f172a;
+  --project-card-cta-primary-border: rgba(255, 255, 255, 0.1);
+  --project-card-cta-secondary-bg: rgba(255, 255, 255, 0.06);
+  --project-card-cta-secondary-text: rgba(255, 255, 255, 0.92);
+  --project-card-cta-secondary-border: rgba(255, 255, 255, 0.14);
 }
 
 html[data-theme="light"] {
@@ -60,6 +83,29 @@ html[data-theme="light"] {
   --project-copy-soft: rgba(15, 23, 42, 0.68);
   --project-tag-surface: rgba(255, 255, 255, 0.78);
   --project-tag-text: rgba(15, 23, 42, 0.72);
+  --project-card-front-start: rgba(255, 255, 255, 0.98);
+  --project-card-front-end: rgba(241, 246, 255, 0.98);
+  --project-card-front-rail: rgba(148, 163, 184, 0.3);
+  --project-card-front-screen: #ffffff;
+  --project-card-front-screen-border: rgba(203, 213, 225, 0.95);
+  --project-card-front-title: #0f172a;
+  --project-card-front-chip: rgba(255, 255, 255, 0.9);
+  --project-card-front-chip-text: rgba(15, 23, 42, 0.78);
+  --project-card-front-year: rgba(15, 23, 42, 0.72);
+  --project-card-back-start: rgba(255, 255, 255, 0.98);
+  --project-card-back-end: rgba(238, 245, 253, 0.98);
+  --project-card-back-surface: rgba(255, 255, 255, 0.88);
+  --project-card-back-title: #0f172a;
+  --project-card-back-text: rgba(15, 23, 42, 0.8);
+  --project-card-back-muted: rgba(15, 23, 42, 0.72);
+  --project-card-back-tag-bg: rgba(255, 255, 255, 0.92);
+  --project-card-back-tag-text: rgba(15, 23, 42, 0.8);
+  --project-card-cta-primary-bg: #0f172a;
+  --project-card-cta-primary-text: #ffffff;
+  --project-card-cta-primary-border: rgba(15, 23, 42, 0.08);
+  --project-card-cta-secondary-bg: rgba(255, 255, 255, 0.98);
+  --project-card-cta-secondary-text: #0f172a;
+  --project-card-cta-secondary-border: rgba(148, 163, 184, 0.26);
 }
 
 @theme inline {

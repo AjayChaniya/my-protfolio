@@ -70,11 +70,11 @@ export const siteData = {
   siteUrl: "https://ajay-portfolio.dev",
   headline: "Front End Developer crafting responsive, high-performance web applications.",
   intro:
-    "I build reusable UI components, optimize frontend performance, and create scalable architectures that improve user experience across modern web products.",
+    "I'm Ajay Chaniya, a Front-End Web Developer and graduate. I specialize in building high-performance, interactive web applications using modern technologies.\n\nCurrently, I'm working as a React Intern at LincPay Solution Pvt. Ltd., where I contribute reusable UI components, production bug fixes, performance improvements, and technical documentation. My experience also includes building responsive, standards-based interfaces during training at J-Spider and shipping project work with React, TypeScript, TanStack Query, Shadcn UI, and Tailwind CSS.",
   shortBio:
-    "Experienced in React, TypeScript, JavaScript, and Tailwind CSS, with a strong focus on efficient code, maintainable systems, and product-ready interfaces.",
+    "My sweet spot is translating product goals into crisp interfaces, maintainable frontend systems, and experiences that stay fast even as complexity grows.",
   longBio:
-    "Currently working as a React Intern at LincPay Solution Pvt. Ltd., I contribute reusable UI components, production bug fixes, performance improvements, and technical documentation. My experience also includes building responsive, standards-based interfaces during training at J-Spider and shipping project work with React, TypeScript, TanStack Query, Shadcn UI, and Tailwind CSS.",
+    "I'm Ajay Chaniya, a Front-End Web Developer and graduate. I specialize in building high-performance, interactive web applications using modern technologies.\n\nMy sweet spot is translating product goals into crisp interfaces, maintainable frontend systems, and experiences that stay fast even as complexity grows.\n\nMy expertise spans HTML, CSS, JavaScript, and React.js, with a strong foundation in Express.js and RESTful APIs. Beyond code, I apply the same strategic discipline I learned from competitive chess to technical problem solving.",
   metaDescription:
     "Ajay Chaniya is a Front End Developer experienced in React, TypeScript, JavaScript, Tailwind CSS, Shadcn UI, REST APIs, and scalable frontend architecture.",
   profileImage:

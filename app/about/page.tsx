@@ -18,7 +18,7 @@ export default function AboutPage() {
         <section className="rounded-[2rem] border border-[var(--border)] bg-[var(--card-surface)] p-6 backdrop-blur-xl sm:p-8">
           <SectionHeading
             eyebrow="About"
-            title="Frontend development with a strong eye for polish, hierarchy, and user experience."
+            title="Transforming Ideas into Digital Reality."
             copy={siteData.longBio}
           />
         </section>

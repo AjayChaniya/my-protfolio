@@ -22,7 +22,7 @@ export default function SectionHeading({
         {title}
       </h2>
       {copy ? (
-        <p className="max-w-2xl text-base leading-8 text-[var(--muted)]">{copy}</p>
+        <p className="max-w-2xl whitespace-pre-line text-base leading-8 text-[var(--muted)]">{copy}</p>
       ) : null}
     </div>
   );
